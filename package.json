@@ -10,6 +10,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.17.2"
+    "@playwright/test": "^1.17.2",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "easy-json-schema": "^0.0.2-beta"
   }
 }
