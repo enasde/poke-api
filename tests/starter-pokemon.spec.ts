@@ -1,4 +1,5 @@
-const { test } = require('@playwright/test');
+//const { test } = require('@playwright/test');
+import {test} from '@playwright/test';
 let starterPokemon = [1, 4, 7, 25, 133, 152, 155, 158, 252, 255, 258, 387, 390, 393, 495, 498, 501, 650, 653, 656, 722, 725, 728, 810, 813, 816]
 let randomStarterPokemon = starterPokemon[Math.floor(Math.random() * starterPokemon.length)];
 
