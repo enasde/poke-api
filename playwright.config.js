@@ -8,6 +8,7 @@ const path = require('path');
  */
 const config = {
   testDir: './tests',
+  snapshotPathTemplate: '{testDir}/snapshots/{testFilePath}/{org}.json',
 
 
   /* Maximum time one test can run for. */
